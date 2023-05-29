@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ストップウォッチアプリ</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1></h1>
+	<article>
+		<p>stopwatch</p>
+		<select id="inputTimeArea">
+      <option value="10000">10秒</option>
+      <option value="20000">20秒</option>
+      <option value="30000">30秒</option>
+      <option value="40000">40秒</option>
+      <option value="50000">50秒</option>
+      <option value="60000">1分</option>
+      <option value="90000">1分30秒</option>
+      <option value="120000">2分</option>
+      <!-- その他のオプションを追加します -->
+    </select>
+		<select id="timeDifference">
+			<option value="1000">1秒</option>
+      <option value="2000">2秒</option>
+      <option value="3000">3秒</option>
+      <option value="4000">4秒</option>
+      <option value="5000">5秒</option>
+		</select>以内
+		<p id="timer">0.000</p>
+		<p id="successScore">成功回数：0</p>
+		<p id="feildScore">失敗回数：0</p>
+		<button id="actionButton">スタート</button>
+		<p id="result"></p>
+	</article>
+	<script src="index.js"></script>
+</body>
+</html>
